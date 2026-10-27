@@ -1,0 +1,15 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67"/>
+    <route id="horizontal" edges="A0A1 A1A2"/>
+    <route id="vertical" edges="A0B0 B0C0"/>
+    <vehicle id="veh0" type="car" route="horizontal" depart="0"/>
+    <vehicle id="veh1" type="car" route="horizontal" depart="1"/>
+    <vehicle id="veh2" type="car" route="horizontal" depart="2"/>
+    <vehicle id="veh3" type="car" route="horizontal" depart="3"/>
+    <vehicle id="veh4" type="car" route="horizontal" depart="4"/>
+    <vehicle id="veh5" type="car" route="vertical" depart="1"/>
+    <vehicle id="veh6" type="car" route="vertical" depart="2"/>
+    <vehicle id="veh7" type="car" route="vertical" depart="3"/>
+    <vehicle id="veh8" type="car" route="vertical" depart="4"/>
+    <vehicle id="veh9" type="car" route="vertical" depart="5"/>
+</routes>

@@ -1,0 +1,23 @@
+liboqs-python faulthandler is disabled
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\oqs\__init__.py:1: UserWarning: liboqs version (major, minor) 0.15.0 differs from liboqs-python version 0.16.0
+  from oqs.oqs import (
+====================================================================
+CONTROLLED VANET SECURITY DEMONSTRATION
+This sends real cryptographically protected test packets to the local RSU.
+Observe the RSU console for the corresponding decisions.
+====================================================================
+[TEST SEND] 1/5 NORMAL message: sender=PSEUDO_6C6D47 seq=1 bytes=11302
+[TEST SEND] 2/5 REPLAY: resent the exact same protected envelope
+[TEST SEND] 3/5 TAMPERING: changed signed speed after signing: sender=PSEUDO_21E432 seq=1 bytes=11306
+[TEST SEND] 4/5 SYBIL candidate 1: same position, different pseudonym: sender=PSEUDO_766660 seq=1 bytes=11302
+[TEST SEND] 4/5 SYBIL candidate 2: same position, different pseudonym: sender=PSEUDO_1999B2 seq=1 bytes=11302
+[TEST] 5/5 DOS/FLOODING: sending a short burst; observe configured rate threshold.
+[TEST SEND] DOS burst 1/8: sender=PSEUDO_35FC0C seq=1 bytes=11302
+[TEST SEND] DOS burst 2/8: sender=PSEUDO_35FC0C seq=2 bytes=11302
+[TEST SEND] DOS burst 3/8: sender=PSEUDO_35FC0C seq=3 bytes=11302
+[TEST SEND] DOS burst 4/8: sender=PSEUDO_35FC0C seq=4 bytes=11302
+[TEST SEND] DOS burst 5/8: sender=PSEUDO_35FC0C seq=5 bytes=11302
+[TEST SEND] DOS burst 6/8: sender=PSEUDO_35FC0C seq=6 bytes=11302
+[TEST SEND] DOS burst 7/8: sender=PSEUDO_35FC0C seq=7 bytes=11302
+[TEST SEND] DOS burst 8/8: sender=PSEUDO_35FC0C seq=8 bytes=11302
+[DONE] Security test packets sent. Review RSU logs for detection and response.
